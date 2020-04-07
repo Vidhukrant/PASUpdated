@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127871" started-at="2020-04-01T12:54:41Z" finished-at="2020-04-01T12:56:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127871" started-at="2020-04-01T12:54:41Z" finished-at="2020-04-01T12:56:49Z">
+      <class name="pasTests.ManagePromoCodeValidation">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="setUpSuite" is-config="true" duration-ms="26774" started-at="2020-04-01T18:24:15Z" finished-at="2020-04-01T18:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="prerequisitesssss()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="prerequisitesssss" is-config="true" duration-ms="110706" started-at="2020-04-01T18:24:41Z" finished-at="2020-04-01T18:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisitesssss -->
+        <test-method status="PASS" signature="errClub()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="errClub" duration-ms="3410" started-at="2020-04-01T18:26:32Z" description="Validate user is not able to add promo code without selecting auto club" finished-at="2020-04-01T18:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errClub -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="860" started-at="2020-04-01T18:26:36Z" finished-at="2020-04-01T18:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errClub status=SUCCESS method=ManagePromoCodeValidation.errClub()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="errDiscountRate()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="errDiscountRate" duration-ms="3134" started-at="2020-04-01T18:26:36Z" description="Validate user is not able to add promo code without entering discount rate" finished-at="2020-04-01T18:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errDiscountRate -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="50" started-at="2020-04-01T18:26:40Z" finished-at="2020-04-01T18:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errDiscountRate status=SUCCESS method=ManagePromoCodeValidation.errDiscountRate()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="errEffectiveDate()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="errEffectiveDate" duration-ms="3129" started-at="2020-04-01T18:26:40Z" description="Validate user is not able to add promo code without entering effective/expiry date" finished-at="2020-04-01T18:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errEffectiveDate -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="94" started-at="2020-04-01T18:26:43Z" finished-at="2020-04-01T18:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errEffectiveDate status=SUCCESS method=ManagePromoCodeValidation.errEffectiveDate()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="errPromoCode()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="errPromoCode" duration-ms="3110" started-at="2020-04-01T18:26:43Z" description="Validating error on ManagePromocode Page without giving code number" finished-at="2020-04-01T18:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errPromoCode -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="43" started-at="2020-04-01T18:26:46Z" finished-at="2020-04-01T18:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errPromoCode status=SUCCESS method=ManagePromoCodeValidation.errPromoCode()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="errPromoDescription()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="errPromoDescription" duration-ms="3096" started-at="2020-04-01T18:26:46Z" description="Validating error on ManagePromocode Page without giving code description" finished-at="2020-04-01T18:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errPromoDescription -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="186" started-at="2020-04-01T18:26:49Z" finished-at="2020-04-01T18:26:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errPromoDescription status=SUCCESS method=ManagePromoCodeValidation.errPromoDescription()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:pasTests.ManagePromoCodeValidation@6f7fd0e6]" name="quit" is-config="true" duration-ms="959" started-at="2020-04-01T18:26:49Z" finished-at="2020-04-01T18:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- pasTests.ManagePromoCodeValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

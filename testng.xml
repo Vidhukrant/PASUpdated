@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener
+			 class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener> 
+			 
+	</listeners> 
+	 
+  <test name="PAS">
+    <classes>
+    
+     
+      <class name="pasTests.VerifyLinks"/>
+     
+      <class name="pasTests.LoginPageValidation"/>
+      
+    
+      
+       
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- <test name="B2CGetAQuote"> 
+  <classes>
+  <class name="b2cTests.GetAquoteW2C"/>
+  <class name="b2cTests.GetAquoteAANT"/>
+  <class name="b2cTests.GetAquoteRAA"/>
+  <class name="b2cTests.GetAquoteRAC"/>
+  <class name="b2cTests.GetAQuoteRACQ"/>
+  <class name="b2cTests.GetAQuoteRACV"/>
+  </classes>
+  </test> -->
+  
+</suite> <!-- Suite -->

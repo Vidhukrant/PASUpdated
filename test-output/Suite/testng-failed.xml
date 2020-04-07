@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="PAS">
+    <classes>
+      <class name="pasTests.TravelCoverageDomesticTrip"/>
+      <class name="pasTests.TravelCoverageAnnualMultiTrip"/>
+      <class name="pasTests.TravellerEndorsementtValidation"/>
+      <class name="pasTests.ValidatingMedicalCondition"/>
+      <class name="pasTests.ChangingTravellerEndorsement"/>
+      <class name="pasTests.ManagePromoCodeValidation"/>
+      <class name="pasTests.ChangingTravelCoverage"/>
+      <class name="pasTests.ValidateDashboard"/>
+      <class name="pasTests.VerifyLinks"/>
+      <class name="pasTests.LoginPageValidation"/>
+      <class name="pasTests.validatingTripDetails"/>
+      <class name="pasTests.ChangingTripDetails"/>
+      <class name="pasTests.ValidateDependent"/>
+      <class name="pasTests.ManagePromoCodes"/>
+      <class name="pasTests.CancelPolicyValidation"/>
+      <class name="pasTests.ManageUser"/>
+      <class name="pasTests.ManageBranches"/>
+      <class name="pasTests.MedicalRescoring"/>
+    </classes>
+  </test> <!-- PAS -->
+  <test name="PAS(failed)">
+    <classes>
+      <class name="pasTests.validatingTripDetails">
+        <methods>
+          <include name="tc5"/>
+          <include name="tc4"/>
+          <include name="tc1"/>
+          <include name="tc2"/>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- pasTests.validatingTripDetails -->
+      <class name="pasTests.TravellerEndorsementtValidation">
+        <methods>
+          <include name="verifyAddressValidation"/>
+          <include name="verifyConEmailAddressValidation"/>
+          <include name="verifyEmailAddressValidation"/>
+          <include name="verifyPostCodeValidation"/>
+          <include name="verifySubrbValidation"/>
+          <include name="verifyPhoneNumberValidation"/>
+        </methods>
+      </class> <!-- pasTests.TravellerEndorsementtValidation -->
+      <class name="pasTests.ManageUser">
+        <methods>
+          <include name="tc6"/>
+          <include name="tc5"/>
+          <include name="tc4"/>
+          <include name="tc3"/>
+          <include name="tc2"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- pasTests.ManageUser -->
+      <class name="pasTests.TravelCoverageAnnualMultiTrip">
+        <methods>
+          <include name="tc3"/>
+          <include name="tc1"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.TravelCoverageAnnualMultiTrip -->
+      <class name="pasTests.ManagePromoCodes">
+        <methods>
+          <include name="tc1"/>
+          <include name="tc2"/>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- pasTests.ManagePromoCodes -->
+      <class name="pasTests.MedicalRescoring">
+        <methods>
+          <include name="tc1"/>
+          <include name="tc2"/>
+          <include name="tc5"/>
+          <include name="tc3"/>
+          <include name="tc4"/>
+        </methods>
+      </class> <!-- pasTests.MedicalRescoring -->
+      <class name="pasTests.ChangingTripDetails">
+        <methods>
+          <include name="tc3"/>
+          <include name="tc1"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.ChangingTripDetails -->
+      <class name="pasTests.ChangingTravellerEndorsement">
+        <methods>
+          <include name="tc3"/>
+          <include name="tc5s"/>
+          <include name="tc2"/>
+          <include name="tc1"/>
+          <include name="tc4"/>
+        </methods>
+      </class> <!-- pasTests.ChangingTravellerEndorsement -->
+      <class name="pasTests.TravelCoverageDomesticTrip">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="tc3"/>
+          <include name="tc1"/>
+          <include name="setUpSuite"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.TravelCoverageDomesticTrip -->
+      <class name="pasTests.ManageBranches">
+        <methods>
+          <include name="tc1"/>
+          <include name="tc6"/>
+          <include name="tc4"/>
+          <include name="tc5"/>
+          <include name="tc3"/>
+          <include name="tc8"/>
+          <include name="tc7"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.ManageBranches -->
+      <class name="pasTests.CancelPolicyValidation">
+        <methods>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- pasTests.CancelPolicyValidation -->
+      <class name="pasTests.ValidateDashboard">
+        <methods>
+          <include name="searchWithoutData"/>
+          <include name="searchQuoteWithLname"/>
+          <include name="searchQuoteWithQuote"/>
+          <include name="searchWithLname"/>
+          <include name="searchQuoteWithFname"/>
+          <include name="clearAllField"/>
+          <include name="searchWithFname"/>
+        </methods>
+      </class> <!-- pasTests.ValidateDashboard -->
+      <class name="pasTests.ChangingTravelCoverage">
+        <methods>
+          <include name="tc1"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.ChangingTravelCoverage -->
+      <class name="pasTests.ManagePromoCodeValidation">
+        <methods>
+          <include name="errDiscountRate"/>
+          <include name="errEffectiveDate"/>
+          <include name="errPromoCode"/>
+          <include name="errPromoDescription"/>
+          <include name="errClub"/>
+        </methods>
+      </class> <!-- pasTests.ManagePromoCodeValidation -->
+      <class name="pasTests.LoginPageValidation">
+        <methods>
+          <include name="tc4"/>
+          <include name="tc1"/>
+          <include name="tc2"/>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- pasTests.LoginPageValidation -->
+      <class name="pasTests.ValidateDependent">
+        <methods>
+          <include name="tc4"/>
+          <include name="tc3"/>
+          <include name="tc1"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.ValidateDependent -->
+      <class name="pasTests.ValidatingMedicalCondition">
+        <methods>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- pasTests.ValidatingMedicalCondition -->
+      <class name="pasTests.VerifyLinks">
+        <methods>
+          <include name="tc3"/>
+          <include name="tc1"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- pasTests.VerifyLinks -->
+    </classes>
+  </test> <!-- PAS(failed) -->
+</suite> <!-- Failed suite [Suite] -->
